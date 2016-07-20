@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Notification"
+        android:textStyle="bold"
+        android:textColor="#999999"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="     From E-Approve"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/switch1"
+        android:checked="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView11" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="     From Report"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/switch2"
+        android:checked="true"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="      User Guide"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/button"
+        android:gravity="left|center_vertical"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="63dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:id="@+id/home"
+        android:src="@mipmap/home_a"
+        android:layout_weight="0.06"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/personal"
+        android:layout_toEndOf="@+id/personal" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="63dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:id="@+id/personal"
+        android:src="@mipmap/personal_a"
+        android:layout_gravity="left|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="63dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:id="@+id/setting"
+        android:src="@mipmap/settings_b"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/home"
+        android:layout_toEndOf="@+id/home" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:text="  Help"
+        android:textStyle="bold"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:text=""
+        android:id="@+id/textView8"
+        android:layout_below="@+id/switch1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/setting"
+        android:layout_alignEnd="@+id/setting" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text=""
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text=""
+        android:id="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch2"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text=""
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
